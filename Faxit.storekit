@@ -1,0 +1,168 @@
+{
+  "identifier" : "4A6E6F8A-5B1D-4C3A-9E2F-1A2B3C4D5E6F",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "0",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2B3C4D5E-0001-4000-8000-000000000011",
+      "localizations" : [],
+      "name" : "Send Plan",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "2B3C4D5E-0006-4000-8000-000000000016",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Send up to 25 fax pages every week.",
+              "displayName" : "Weekly Send Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.faxit.plan.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly Send Plan",
+          "subscriptionGroupID" : "2B3C4D5E-0001-4000-8000-000000000011",
+          "type" : "RecurringSubscription",
+          "winBackOffers" : []
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "2B3C4D5E-0002-4000-8000-000000000012",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Send up to 100 fax pages every month.",
+              "displayName" : "Monthly Send Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.faxit.plan.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Send Plan",
+          "subscriptionGroupID" : "2B3C4D5E-0001-4000-8000-000000000011",
+          "type" : "RecurringSubscription",
+          "winBackOffers" : []
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "79.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2B3C4D5E-0005-4000-8000-000000000015",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Send up to 1,200 fax pages every year.",
+              "displayName" : "Yearly Send Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.faxit.plan.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Send Plan",
+          "subscriptionGroupID" : "2B3C4D5E-0001-4000-8000-000000000011",
+          "type" : "RecurringSubscription",
+          "winBackOffers" : []
+        }
+      ]
+    },
+    {
+      "id" : "2B3C4D5E-0003-4000-8000-000000000013",
+      "localizations" : [],
+      "name" : "Number Rental",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "2B3C4D5E-0004-4000-8000-000000000014",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A dedicated fax number for receiving faxes.",
+              "displayName" : "Dedicated Fax Number",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.faxit.number.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Number Rental",
+          "subscriptionGroupID" : "2B3C4D5E-0003-4000-8000-000000000013",
+          "type" : "RecurringSubscription",
+          "winBackOffers" : []
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
